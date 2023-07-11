@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+  height: 100vh;
+  box-sizing: border-box;
+  line-height: 1.5;
+  /* background: linear-gradient(to bottom, #285f04, #98c98e); */
+  color: #000000;
+  text-align: center;
+}
+
+.logo {
+  width: 80%;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+span {
+  font-weight: 1000;
+}
+
+a {
+  text-decoration: none;
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+}
+a:hover {
+  color: green;
+  opacity: 0.7;
+}
+
+.banks-img {
+  width: 50%;
+}
+
+
+
+/* Styles for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  p {
+    font-size: 30px;
+    font-weight: bold;
+}
+a {
+  text-decoration: none;
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+}
+/* Styles for screens with a maximum width of 480px */
+@media (max-width: 400px) {
+  p {
+    font-size: 30px;
+    font-weight: bold;
+}
+a {
+  text-decoration: none;
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+}
